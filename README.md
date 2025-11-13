@@ -24,6 +24,21 @@ Install the required Python dependencies:
 pip install -r requirements.txt
 ```
 
+## Testing
+
+Run the unit tests to verify the raytracer implementation:
+
+```bash
+python -m unittest test_raytracer.py -v
+```
+
+The test suite includes 18 tests covering:
+- Vec3 operations (addition, subtraction, dot product, normalization)
+- Ray generation and point calculation
+- Sphere intersection and normal calculation
+- Scene management and ray intersection
+- Renderer image generation
+
 ## Usage
 
 ### Running the Raytracer
